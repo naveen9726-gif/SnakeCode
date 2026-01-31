@@ -2,7 +2,7 @@ const canvas = document.getElementById('hero-canvas');
 const ctx = canvas.getContext('2d');
 const frameCount = 151;
 const images = [];
-const imagePath =(index) => `assets/ezgif-frame-${index.toString().padStart(3, '0')}.jpg`;
+const imagePath = (index) => `assets/ezgif-frame-${index.toString().padStart(3, '0')}.jpg`;
 
 // Set canvas size
 function resizeCanvas() {
@@ -88,5 +88,4 @@ cards.forEach(card => {
         card.style.setProperty('--mouse-y', `${y}px`);
     });
 });
-
 
