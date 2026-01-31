@@ -79,6 +79,7 @@ body {
     flex: 1;
     padding: 4rem 6rem;
     max-width: 1200px;
+    width: 100%;
 }
 
 .content-hero {
@@ -319,6 +320,16 @@ code {
 
     .nav-links a {
         white-space: nowrap;
+        padding: 0.5rem 0.75rem;
+        font-size: 0.85rem;
+    }
+
+    .content-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .learning-module h2 {
+        font-size: 1.8rem;
     }
 }
 
