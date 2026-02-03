@@ -88,4 +88,3 @@ cards.forEach(card => {
         card.style.setProperty('--mouse-y', `${y}px`);
     });
 });
-
